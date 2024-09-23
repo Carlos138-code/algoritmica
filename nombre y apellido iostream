@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main() {
+
+    char nombre[20], apellido[20];
+
+    std::cout << "Ingresa tu nombre: ";
+    std::cin >> nombre;
+
+    std::cout << "Ingresa tu apellido: ";
+    std::cin >> apellido;
+
+    std::cout << "Tu nombre completo es: " << nombre << " " << apellido << std::endl;
+
+    return 0;
+}
